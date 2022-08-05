@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #272729;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0% 15%;
+  height: 44px;
+}
+
+.navbar-link {
+  color: #cecece;
+  padding: 0px 8px;
+  cursor: pointer;
+  font-size: 14;
+  line-height: 1.23536;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+}
+
+.navbar-link:hover {
+  color: #ffffff;
+}
+
+.navbar-button {
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 14px;
+}
+
+.banner-unicef {
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+.unicef-img {
+  width: 122px;
+  height: 32px;
+}
+.unicef-donar {
+  color: blue;
+  padding: 0px 8px;
+  cursor: pointer;
+  font-size: 14;
+  line-height: 1.23536;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  margin-left: 14px;
+  width: 122px;
+}
+
+.products-highlights {
+  align-items: center;
+}
+
+footer {
+  border: 1px solid red;
+}
