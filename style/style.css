@@ -1,6 +1,5 @@
 body {
   display: flex;
-  margin: 0;
   flex-direction: column;
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
   "Helvetica", "Arial", sans-serif;
@@ -42,29 +41,64 @@ body {
 
   /* Banner unicef */
 .banner-unicef {
-  flex-direction: row;
   text-align: center;
-  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
   background-color: #f3f3f3;
 }
+
 .unicef-img {
   width: 122px;
   height: 32px;
 }
 .unicef-donar {
+  text-align: center;
   color:#06c;
   font-size: 14;
   margin-left: 14px;
   width: 122px;
   text-decoration: none;
 }
- /* Product Highlights */
-.products-highlights {
- align-items: center;
+ /* Modelo del Contenido */
+.modelo-del-contenido {
+  background-color: #fbfbfb;
+ background: url(../Images/MacBook.png);
+ background-position: 50%;
+ background-repeat: no-repeat;
+ background-size: 3000px 600px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding: 0.8vw;
+ width: 100%;
+ height: 100%;
 }
-.img-macbook{
-  width: 100%;
-  height: 100%;
+.h2{
+  font-size: xx-large;
+  display: inline-flex;
+  align-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20vw;
+  line-height:0vw;
+}
+.text-macbook.air{
+  width: 50%;
+  margin: 1.5vw;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.links-contenido{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  font-size: 17px;
+  margin-top:1.5vw;
+  color: #06c;
+  text-decoration: none;
 }
   
  /* Footer */
