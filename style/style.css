@@ -31,6 +31,16 @@ body {
   color: #ffffff;
 }
 
+.navbar-button-apple {
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 14px;
+}
+.navbar-button-bag {
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 14px;
+}
 .navbar-button {
   padding: 0px 10px;
   cursor: pointer;
@@ -142,4 +152,25 @@ footer {
   align-items: center;
   text-decoration: none;
   
+}
+@media(max-width:900px){
+  body{
+    width: auto;
+    height: auto;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1vw;
+    height: 44px;
+    justify-content:flex-end;
+    gap: 35vw;
+  }
+  .navbar-link{
+    display: none;
+  }
+  .navbar-button{
+    display: none;
+
+  }
 }
